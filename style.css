@@ -1,0 +1,190 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: black;
+}
+
+.outerbox{
+   width: 950px;
+   margin: 0 auto;
+   background-color: rgb(243, 241, 241);
+   padding: 40px;
+   height: 860px;
+   padding-right: 20px;
+   margin-top: 30px;
+}
+.innerbox{
+    width: 100%;
+    float: left;
+}
+
+.topbox{
+    width: 100%;
+    float: left;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.bit-text{
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: rgb(29, 28, 28);
+}
+.am-text{
+    font-size: 45px;
+    font-weight: 600;
+    color: rgb(15, 15, 218);
+}
+.web-text{
+    padding:0px 18%;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.4;
+    color: rgb(91, 91, 91);
+}
+
+
+
+
+
+
+.bottombox{
+    width: 100%;
+    float: left;
+}
+.left-box{
+    width: 44%;
+    float: left;
+    padding: 30px;
+    text-align: center;
+    background-color: blue;
+    padding-bottom: 55px;
+}
+.profile-box{
+    width: 170px;
+    height: 170px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 18px;
+
+}
+.text-box{
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+    padding: 0px 20px;
+    text-align: center;
+}
+.iam-text{
+    font-size: 33px;
+    font-weight: 500;
+    color: rgb(238, 236, 236);
+    margin-bottom: 21px;
+}
+
+.button-box{
+   padding: 10px 19px;
+   border: 2px solid rgb(99, 96, 96);
+   font-size: 18px;
+   font-weight: 500;
+   cursor: pointer;
+   color: rgb(238, 236, 236);
+   
+
+}
+
+
+
+.right-box{
+    width: 53%;
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.box1{
+    width: 44%;
+    margin: 12px;
+    padding: 40px 22px;
+    background-color: white;
+    margin-top: 0px;
+    box-shadow: 1px 1px 5px rgb(24, 24, 24);
+    margin-bottom: 25px;
+}
+.first-box{
+    border-bottom: 10px solid rgb(223, 189, 18);   
+}
+
+.second-box{
+    
+    border-bottom: 10px solid rgb(5, 247, 215) ; 
+}
+.third-box{
+    border-bottom: 10px solid rgb(6, 124, 243);   
+}
+.fourth-box{
+    border-bottom: 10px solid rgb(240, 201, 5);   
+}
+.graphic-text{
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.button{
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 2px solid black;
+    background-color: none;
+    padding-bottom: 2px;
+    cursor: pointer;
+    display: inline-block;
+}
+.popup{
+    width:38.5%;
+    position: fixed;
+    background-color: rgba(0,0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display:none ;
+   
+}
+.popup_content{
+    width:100%;
+    float: left;
+    background-color: whitesmoke;
+    padding: 90px 40px;
+    border-bottom: 10px solid rgb(223, 189, 18);
+    margin-top: -40%;
+
+}
+.des-text{
+    margin-bottom: 72px;
+}
+
+
+
+
+
+.button-close{
+    background-color:white;
+    color: rgb(223, 189, 18);
+    font-weight: 700;
+    cursor: pointer;
+    padding:11px 23px ;
+    margin-left: 5px;
+    border-radius: 8px;
+    border: 2px solid #ededee;
+    margin-bottom: 20px;
+   
+}
+
+
