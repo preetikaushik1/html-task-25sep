@@ -13,7 +13,7 @@ body {
   margin: 0 auto;
   background-color: rgb(243, 241, 241);
   padding: 40px;
-  height: 860px;
+  height: 850px;
   padding-right: 20px;
   margin-top: 30px;
 }
@@ -38,7 +38,7 @@ body {
 .am-text {
   font-size: 45px;
   font-weight: 600;
-  color: rgb(15, 15, 218);
+  color:blue;
 }
 .web-text {
   padding: 0px 18%;
@@ -78,28 +78,29 @@ body {
 .iam-text {
   font-size: 33px;
   font-weight: 500;
-  color: rgb(238, 236, 236);
+  color: rgb(215, 214, 214);
   margin-bottom: 21px;
+  line-height: 1.2;
 }
 
 .button-box {
-  padding: 10px 19px;
-  border: 2px solid rgb(99, 96, 96);
-  font-size: 18px;
+  padding: 11px 19px;
+  border: 1.5px solid rgb(185, 184, 184);
+  font-size: 16px;
   font-weight: 500;
   cursor: pointer;
-  color: rgb(238, 236, 236);
+  color: rgb(215, 214, 214);
 }
 
 .right-box {
   width: 53%;
   float: right;
-  border: 2px solid blue;
+ /* border: 2px solid blue;*/
 }
 .right-inner {
   width: 100%;
   float: left;
-  border: 1px solid red;
+ /* border: 1px solid red;*/
   display: flex;
   flex-wrap: wrap;
 }
@@ -114,17 +115,17 @@ body {
   margin-bottom: 25px;
 }
 .first-box {
-  border-bottom: 10px solid rgb(223, 189, 18);
+  border-bottom: 9px solid rgb(223, 189, 18);
 }
 
 .second-box {
-  border-bottom: 10px solid rgb(5, 247, 215);
+  border-bottom: 9px solid rgb(12, 246, 215);
 }
 .third-box {
-  border-bottom: 10px solid rgb(6, 124, 243);
+  border-bottom: 9px solid rgb(6, 124, 243);
 }
 .fourth-box {
-  border-bottom: 10px solid rgb(240, 201, 5);
+  border-bottom: 9px solid rgb(240, 201, 5);
 }
 .graphic-text {
   font-size: 22px;
@@ -134,7 +135,7 @@ body {
 }
 .button {
   border: none;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 500;
   border-bottom: 2px solid black;
   background-color: none;
@@ -145,7 +146,7 @@ body {
 .popup {
   width: 100%;
   border: 2px solid yellow;
-  background-color: rgba(0, 0, 0, 0.6);
+ /* background-color: rgba(0, 0, 0, 0.6);*/
   display: flex;
   justify-content: center;
   align-items: center;
