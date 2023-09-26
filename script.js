@@ -1,10 +1,10 @@
 //console.log('hello')
 
 let clickButton = document.querySelector('.button')
-   
-clickButton.addEventListener('click', function(){
 
-    document.querySelector('.popup').style.display = 'flex'
+   clickButton.addEventListener('click', function(){
+
+   document.querySelector('.popup').style.display = 'flex'
 })
 
 
@@ -16,3 +16,4 @@ closeButton.addEventListener('click', function(){
 
     document.querySelector('.popup').style.display = 'none'
 })
+

@@ -99,10 +99,11 @@ body {
 }
 .right-inner {
   width: 100%;
-  float: left;
+float: left;
  /* border: 1px solid red;*/
   display: flex;
   flex-wrap: wrap;
+ 
 }
 
 .box1 {
@@ -142,21 +143,24 @@ body {
   padding-bottom: 2px;
   cursor: pointer;
   display: inline-block;
+
 }
 .popup {
-  width: 100%;
-  border: 2px solid yellow;
+  width: 36%;
+ /*  border: 2px solid yellow;*/
  /* background-color: rgba(0, 0, 0, 0.6);*/
   display: flex;
   justify-content: center;
   align-items: center;
   display:none ;
+  position: fixed;
+  margin-top: -20%;
 }
 .popup_content {
   width: 100%;
   float: left;
   background-color: whitesmoke;
-  padding: 70px 40px;
+  padding: 80px 40px;
   border-bottom: 10px solid rgb(223, 189, 18);
 }
 .des-text {

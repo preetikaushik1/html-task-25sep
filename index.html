@@ -6,7 +6,7 @@
     <title>Who Am  I</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-    <script src="script.js"></script>
+    
   </head>
   <body>
     <div class="outerbox">
@@ -68,12 +68,29 @@
                 <span class="button-close">CLOSE</span>
               </div>
             </div>
+
+            <div class="popup">
+              <div class="popup_content">
+                <img src="icons/ui-design.png" />
+                <div class="graphic-text">Web Design</div>
+                
+                <div class="des-text">
+                  Graphic design is a craft where professionals create visual
+                  content to communicate messages. By applying visual hierarchy
+                  and page layout techniques, designers use typography and
+                  pictures to meet users' specific needs and focus on the logic
+                  of displaying elements in interactive designs, to optimize the
+                  user experience.
+                </div>
+                <span class="button-close">CLOSE</span>
+              </div>
+            </div>
 <!--inner-box content-->
             <div class="right-inner">
               <div class="box1 first-box">
                 <img src="icons/web-design.png" />
                 <div class="graphic-text">Graphic Design</div>
-                <button class="button">MORE</button>
+                <button class="button" onclick="myFunction()">MORE</button>
               </div>
 
               <div class="box1 second-box">
@@ -98,5 +115,6 @@
         </div>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
